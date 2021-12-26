@@ -39,7 +39,7 @@ cat > /opt/traccar/conf/traccar.xml << EOF
 <properties>
 
     <entry key="config.default">./conf/default.xml</entry>
-	<entry key='web.port'>80</entry>
+	<entry key='web.port'>8082</entry>
 
     <entry key='database.driver'>com.mysql.jdbc.Driver</entry>
     <entry key='database.url'>jdbc:mysql://localhost/new_d?allowPublicKeyRetrieval=true&amp;useSSL=false&amp;serverTimezone=UTC&amp;useSSL=false&amp;allowMultiQueries=true&amp;autoReconnect=true&amp;useUnicode=yes&amp;characterEncoding=UTF-8&amp;sessionVariables=sql_mode=''</entry>
